@@ -2,12 +2,12 @@ package Kea;
 
 public class Cat {
 
-    String name;
-    String sex;
-    int age;
-    int weight;
-    String color;
-    String texture;
+    private String name;
+    private String sex;
+    private int age;
+    private int weight;
+    private String color;
+    private String texture;
 
     public void catTemp(String name, String sex, int age, int weight, String color, String texture){
         this.name = name;
@@ -26,6 +26,5 @@ public class Cat {
                 "\nWeight = " + weight +
                 "\nColor = " + color +
                 "\nTexture = " + texture + "\n";
-
     }
 }

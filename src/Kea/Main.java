@@ -1,7 +1,7 @@
 package Kea;
 
 public class Main {
-    
+
     public static void main(String[] args) {
         Cat oscar = new Cat();
         Cat luna = new Cat();
